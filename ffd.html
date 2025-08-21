@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Pure Water Order</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f0f8ff;
+      padding: 20px;
+    }
+    .container {
+      max-width: 400px;
+      margin: auto;
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    input, textarea, button {
+      width: 100%;
+      margin-top: 10px;
+      padding: 10px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+    }
+    button {
+      background: #007bff;
+      color: white;
+      border: none;
+    }
+    h2 {
+      text-align: center;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2>Order Pure Water</h2>
+    <form action="https://formsubmit.co/centemalon777@gmail.com" method="POST">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+
+<input type="tel" name="phone" placeholder="Phone Number" required>
+      <textarea name="orderDetails" placeholder="Enter your order (e.g., 10 bags)" required></textarea>
+      
+      <!-- Optional: Redirect after submission -->
+      <input type="hidden" name="_next" value="https://yourwebsite.com/thank-you.html">
+
+      <button type="submit">Place Order</button>
+    </form>
+  </div>
+</body>
+</html>
